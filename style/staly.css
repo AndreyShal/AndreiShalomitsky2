@@ -1,0 +1,45 @@
+.container{width: 1200px; margin: auto;};
+body, html{margin: 0; padding:0;}
+a{text-decoration: none}
+ul{list-style: none;}
+.shapka{
+	display: flex;
+	justify-content: space-between;
+}
+.convert img{
+	width: 110px;
+	height: 65px;
+	border: 1px solid rgb(96, 96, 96);
+}
+.logotip{
+	display: flex;
+	align-items: center;
+}
+.text{
+	font-size: 16px;
+	margin-left: 6%;
+}
+.number{
+	align-items: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+.Zagolovok1 h1{
+	font-size: 34 px;
+	font-weight: bold;
+}
+.Zagolovok1 h2{
+	font-size: 27px;
+	font-weight: bold;
+}
+.kitchen_box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.kitchen_box img{
+	width: 320px;
+	height: 218px;
+	margin-bottom: 5%;
+	{object-fit: cover; -o-object-fit: cover;}
+}
