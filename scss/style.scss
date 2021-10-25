@@ -23,6 +23,7 @@ h5,
 h6 {
     font-size: inherit;
     font-weight: inherit;
+    color: red;
 }
 /*------------------------------------------------------------*/
 
@@ -121,8 +122,6 @@ ul {
     width: 320px;
     height: 218px;
     margin-bottom: 5%;
-     {
-        object-fit: cover;
-        -o-object-fit: cover;
-    }
+    object-fit: cover;
+    -o-object-fit: cover;
 }
