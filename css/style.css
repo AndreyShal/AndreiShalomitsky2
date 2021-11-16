@@ -1,23 +1,82 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 }
 
 a,
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 ul li {
-  list-style: none;
+    list-style: none;
 }
 
 img {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 h1,
@@ -26,134 +85,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  font-weight: inherit;
-  color: red;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
-/*------------------------------------------------------------*/
+/*--------------------*/
 body {
-  color: red;
+    font-family: Lato;
 }
-
-button {
-  cursor: pointer;
+.header {
+    background: rgba(0, 4, 5, 0.3);
+    width: 100vw;
+    height: 13vh;
+    color: #fff;
 }
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-/*------------------------------------------------------------*/
-body {
-  color: red;
-}
-
-.container {
-  width: 1200px;
-  margin: auto;
-}
-
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-.shapka {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.convert img {
-  width: 110px;
-  height: 64px;
-  border: 1px solid #606060;
-}
-
-.logotip {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.text {
-  font-size: 16px;
-  margin-left: 6%;
-}
-
-.number {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.Zagolovok1 h1 {
-  font-size: 34 px;
-  font-weight: bold;
-}
-
-.Zagolovok1 h2 {
-  font-size: 27px;
-  font-weight: bold;
-}
-
-.kitchen_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.kitchen_box img {
-  width: 320px;
-  height: 218px;
-  margin-bottom: 5%;
-  object-fit: cover;
-  -o-object-fit: cover;
+.about {
+    background: url(../img/about/241010450_196763065777174_1012264820898905322_n.jpg) no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    block-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
 }
