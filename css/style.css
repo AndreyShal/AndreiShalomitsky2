@@ -195,7 +195,8 @@ ul li a {
     line-height: 3vh;
     font-weight: 300;
     word-spacing: 1vh;
-    color: #fff;
+    /* color: #fff; */
+    color: #c0c0c0;
     margin: 4vh 0 3vh;
 }
 .about__profession {

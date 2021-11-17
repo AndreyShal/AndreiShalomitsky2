@@ -13,6 +13,7 @@
     .about__fullName {
         font-size: 3vh;
         margin: 2vh 0 8vh;
+        color: #c0c0c0;
     }
     .header__menu {
         overflow: hidden;
