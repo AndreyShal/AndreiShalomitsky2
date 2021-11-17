@@ -91,7 +91,7 @@ h6 {
 
 /*----------------------------------------------------------------------------------------------------*/
 body {
-    font-family: Lato;
+    /* font-family: Lato; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -101,8 +101,9 @@ body {
     position: relative;
 }
 .header {
-    position: absolute;
-    top: 0;
+    border-bottom: none;
+    position: fixed;
+    /* top: 0; */
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -115,10 +116,10 @@ body {
         rgba(0, 4, 5, 0.01) 95%,
         rgba(0, 4, 5, 0.01) 100%
     );
-    /* background-size: cover; */
 }
 .header__logotip {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     width: 5vw;
     margin: 0 auto;
@@ -137,12 +138,17 @@ body {
     width: 70vw;
     height: 13vh;
 }
-.header__item {
+
+.header__menu label.toggleMenu img {
+    display: none;
+}
+ul {
     display: flex;
     align-items: center;
-    width: auto;
+    justify-content: space-between;
+    width: 100%;
 }
-.header__item a {
+ul li a {
     color: #fff;
     font-size: 100%;
 }
@@ -155,6 +161,7 @@ body {
 .header__socialNetworks a {
     align-items: center;
     display: flex;
+    justify-content: space-around;
 }
 .header__socialNetworks img {
     font-size: auto;
@@ -163,10 +170,9 @@ body {
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .about {
-    background: url(../img/about/241010450_196763065777174_1012264820898905322_n.jpg) no-repeat;
-    background-size: 100%;
+    /* background: url(../img/about/241010450_196763065777174_1012264820898905322_n.jpg) no-repeat; */
+    background: url(../img/portfolio/240944737_1020288688735564_2143933923644719314_n.jpg) no-repeat;
     background-repeat: no-repeat;
-    block-size: cover;
     background-position: center center;
     width: 100vw;
     height: 100vh;
@@ -201,10 +207,11 @@ body {
     font-weight: 300;
     word-spacing: 1vh;
     color: #fff;
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 }
-/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
