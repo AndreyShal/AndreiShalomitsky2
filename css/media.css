@@ -47,7 +47,7 @@
         border: none;
         letter-spacing: 5px;
     }
-    .about {
+    .smoll {
         background: url(../img/portfolio/240944737_1020288688735564_2143933923644719314_n.jpg) no-repeat;
         background-repeat: no-repeat;
         background-position: center center;
@@ -58,7 +58,7 @@
     }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .about {
+    .smoll {
         background: url(../img/portfolio/240944737_1020288688735564_2143933923644719314_n.jpg) no-repeat;
         background-repeat: no-repeat;
         background-position: center center;
