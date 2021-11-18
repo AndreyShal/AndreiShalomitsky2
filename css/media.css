@@ -13,7 +13,8 @@
     .about__fullName {
         font-size: 3vh;
         margin: 2vh 0 8vh;
-        color: #c0c0c0;
+        font-weight: 900;
+        color: #000;
     }
     .header__menu {
         overflow: hidden;
@@ -46,7 +47,7 @@
         border: none;
         letter-spacing: 5px;
     }
-    .smoll {
+    .about {
         background: url(../img/portfolio/240944737_1020288688735564_2143933923644719314_n.jpg) no-repeat;
         background-repeat: no-repeat;
         background-position: center center;
@@ -57,7 +58,7 @@
     }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .smoll {
+    .about {
         background: url(../img/portfolio/240944737_1020288688735564_2143933923644719314_n.jpg) no-repeat;
         background-repeat: no-repeat;
         background-position: center center;

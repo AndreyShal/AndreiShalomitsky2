@@ -193,11 +193,10 @@ ul li a {
     font-family: "20094";
     font-size: 5vh;
     line-height: 3vh;
-    font-weight: 300;
+    font-weight: 900;
     word-spacing: 1vh;
-    /* color: #fff; */
-    color: #c0c0c0;
-    margin: 4vh 0 3vh;
+    color: #000;
+    margin: 4vh 0 4vh;
 }
 .about__profession {
     text-align: center;
