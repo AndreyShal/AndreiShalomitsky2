@@ -16,6 +16,30 @@
         font-weight: 900;
         color: #000;
     }
+    .header__socialNetworks {
+        margin-right: 10vw;
+    }
+    .header__logotip {
+        margin-left: 10vw;
+    }
+    .portfolio {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .portfolio__item {
+        width: 49.5%;
+        height: 17vh;
+        margin: 0.1%;
+    }
+    .about__pattern {
+        margin-top: 4vh;
+    }
+    .about__fullName {
+        margin: 1px 0 4vh;
+    }
     .header__menu {
         overflow: hidden;
     }
@@ -37,7 +61,7 @@
         text-align: center;
         font-family: "20094";
         font-size: 16px;
-        line-height: 50px;
+        line-height: 100px;
         font-weight: 300;
         word-spacing: 10px;
         color: #808080;
@@ -66,5 +90,10 @@
         height: 100vh;
         padding-top: 61vh;
         background-size: cover;
+    }
+    .portfolio__item {
+        width: 49.5%;
+        height: 26vh;
+        margin: 0.1%;
     }
 }
