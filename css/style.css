@@ -101,7 +101,7 @@ body {
     position: relative;
 }
 .header {
-    border-bottom: none;
+    border: none;
     position: fixed;
     /* top: 0; */
     display: flex;
