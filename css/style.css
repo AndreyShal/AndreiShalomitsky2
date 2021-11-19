@@ -132,6 +132,21 @@ body {
     height: 90px;
     filter: invert(1);
 }
+#faceID {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 12vh;
+    left: 9vw;
+    display: none;
+    box-shadow: 0px 0px 20px 20px rgba(0, 4, 5, 0.9);
+}
+#faceID img {
+    object-fit: cover;
+    -o-object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 .header__menu {
     display: flex;
     justify-content: space-around;
@@ -175,7 +190,7 @@ ul li a {
     background-position: center center;
     width: 100vw;
     height: 100vh;
-    padding-top: 61vh;
+    padding-top: 58vh;
     background-size: cover;
 }
 .about__pattern {
@@ -189,14 +204,19 @@ ul li a {
     height: auto;
 }
 .about__fullName {
+    /* margin: 0 auto;
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+    flex-wrap: wrap; */
     text-align: center;
     font-family: "20094";
     font-size: 5vh;
-    line-height: 3vh;
+    line-height: 8vh;
     font-weight: 1000;
     word-spacing: 1vh;
     color: #000;
-    margin: 4vh 0 4vh;
+    padding: 4vh 0 4vh;
 }
 .about__profession {
     text-align: center;
@@ -211,14 +231,15 @@ ul li a {
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 .portfolio {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .portfolio__item {
     width: 24.5%;
-    height: 24.5%;
+    height: 30vh;
     margin: 0.1%;
 }
 .portfolio__item img {
@@ -228,12 +249,15 @@ ul li a {
     height: 100%;
 }
 .footer {
+    width: 100vw;
+    bottom: 0;
     margin: 5vh 0 3vh;
     text-align: center;
 }
 .footer span {
     font-weight: 1000;
     color: #c0c0c0;
+    margin-bottom: 10vh;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 

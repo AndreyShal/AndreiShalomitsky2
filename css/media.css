@@ -9,7 +9,7 @@
     position: relative;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 767px) {
     .about__fullName {
         font-size: 3vh;
         margin: 2vh 0 8vh;
@@ -25,24 +25,6 @@
     }
     .header__logotip {
         margin-left: 10vw;
-    }
-    .portfolio {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    .portfolio__item {
-        width: 49.5%;
-        height: 17vh;
-        margin: 0.1%;
-    }
-    .about__pattern {
-        margin-top: 4vh;
-    }
-    .about__fullName {
-        margin: 1px 0 4vh;
     }
     .header__menu {
         overflow: hidden;
@@ -83,6 +65,24 @@
         height: 100vh;
         padding-top: 61vh;
         background-size: cover;
+    }
+    .about__pattern {
+        margin-top: 4vh;
+    }
+    .about__fullName {
+        margin: 1px 0 0vh;
+    }
+    .portfolio {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .portfolio__item {
+        width: 49.5%;
+        height: 50vh;
+        margin: 0.1%;
     }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
