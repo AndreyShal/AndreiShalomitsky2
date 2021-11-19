@@ -114,14 +114,6 @@ body {
     justify-content: space-between;
     width: 100vw;
     height: 10vh;
-    /* background: rgba(0, 4, 5, 0.3); */
-    /* background: -webkit-repeating-linear-gradient(
-        top,
-        rgba(0, 4, 5, 1) 0%,
-        rgba(0, 4, 5, 1) 20%,
-        rgba(0, 4, 5, 0.01) 95%,
-        rgba(0, 4, 5, 0.01) 100%
-    ); */
 }
 .header__logotip {
     display: flex;
@@ -160,17 +152,8 @@ ul li a {
     font-size: 100%;
 }
 .header__socialNetworks {
-    /* display: flex; */
-    /* margin: 0 auto; */
-    /* text-align: center; */
     width: 15vw;
     height: 100%;
-    /* height: 5vh; */
-}
-.header__socialNetworks a {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
 }
 .header__socialNetworks img {
     font-size: auto;
@@ -198,11 +181,6 @@ ul li a {
     height: auto;
 }
 .about__fullName {
-    /* margin: 0 auto;
-    display: flex;
-    width: 60vw;
-    justify-content: space-around;
-    flex-wrap: wrap; */
     text-align: center;
     font-family: "20094";
     font-size: 5vh;
@@ -225,7 +203,6 @@ ul li a {
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 .portfolio {
     width: 100vw;
-    /* height: 100vh; */
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -257,8 +234,6 @@ ul li a {
     position: absolute;
     right: 3vw;
     bottom: 2vw;
-    /* width: 5vw;
-    height: 4vh; */
 }
 .buttonTop img {
     height: 100%;

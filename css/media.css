@@ -2,7 +2,6 @@
     display: none;
 }
 .header__menu label.toggleMenu {
-    /* background: #C9C9C9; */
     display: block;
     margin: 15px 40px;
     cursor: pointer;
@@ -42,7 +41,6 @@
     input.toggleMenu:checked ~ ul {
         border: none;
         position: absolute;
-        /* text-align: center; */
         margin: 100px 0 200px 0;
         display: block;
         text-align: center;
@@ -96,9 +94,6 @@
     }
     .header__menu {
         justify-content: start;
-    }
-    .header__socialNetworks {
-        /* padding-right: 40vw; */
     }
     .header {
         height: 11vh;
