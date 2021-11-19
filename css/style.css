@@ -160,20 +160,22 @@ ul li a {
     font-size: 100%;
 }
 .header__socialNetworks {
-    display: flex;
-    margin: 0 auto;
-    text-align: center;
-    width: 5vw;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    width: 15vw;
+    height: 100%;
+    /* height: 5vh; */
 }
 .header__socialNetworks a {
+    /* display: flex;
     align-items: center;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 .header__socialNetworks img {
     font-size: auto;
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: 100%;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .about {
