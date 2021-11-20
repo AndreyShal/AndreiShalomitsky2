@@ -240,6 +240,54 @@ ul li a {
     width: 100%;
     filter: invert(0.4);
 }
+.aboutMenu {
+    width: 100vw;
+    padding: 0 10vw 0;
+}
+.title__aboutMenu {
+    margin-top: 15vh;
+    text-align: center;
+}
+.title__aboutMenu h1 {
+    line-height: 26px;
+    text-align: center;
+    font-size: 30px;
+    /* line-height: 8vh; */
+    font-weight: 900;
+    word-spacing: 5px;
+    color: gray;
+    padding: 4vh 0 4vh;
+}
+.aftorWords {
+    font-family: "20094";
+    line-height: 10vh;
+    text-align: center;
+    font-size: 7vh;
+    /* line-height: 8vh; */
+    font-weight: 900;
+    word-spacing: 1vw;
+    color: beige;
+    background-color: gray;
+    padding: 4vh 0 4vh;
+    margin: 6vh 0 8vh;
+    box-shadow: 0px 0px 2vw 5vh rgba(54, 54, 54, 0.8);
+}
+.package__text {
+    display: block;
+    margin-bottom: 4vh;
+}
+.package__text h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.package__item {
+    margin: 1vh;
+    list-style-type: disc;
+}
+.package__item span {
+    word-spacing: 5px;
+    font-size: 20px;
+}
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
