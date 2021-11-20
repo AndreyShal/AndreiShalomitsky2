@@ -22,6 +22,8 @@
     .header__socialNetworks {
         margin-top: 2vh;
         margin-right: 16vw;
+        width: 17vw;
+        height: 70%;
     }
     .header__logotip {
         margin-left: 10vw;
