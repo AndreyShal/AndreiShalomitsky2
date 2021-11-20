@@ -25,6 +25,9 @@
         width: 17vw;
         height: 70%;
     }
+    .header__socialNetworks img {
+        filter: invert(0.5);
+    }
     .header__logotip {
         margin-left: 10vw;
     }
