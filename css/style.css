@@ -288,6 +288,26 @@ ul li a {
     word-spacing: 5px;
     font-size: 20px;
 }
+.additional__services {
+}
+.services__title {
+    margin-top: 7vh;
+    text-align: center;
+}
+.services__title h2 {
+    line-height: 24px;
+    text-align: center;
+    font-size: 30px;
+    /* line-height: 8vh; */
+    font-weight: 900;
+    word-spacing: 5px;
+    color: black;
+    padding: 4vh 0 4vh;
+}
+.services__text span {
+    word-spacing: 5px;
+    font-size: 20px;
+}
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
