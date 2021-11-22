@@ -73,7 +73,7 @@
         background-size: cover;
     }
     .about {
-        padding-top: 48vh;
+        padding-top: 58vh;
     }
     .about__pattern {
         margin-top: 1vh;
@@ -86,6 +86,10 @@
     .about__fullName {
         margin: 1px 0 0vh;
         color: white;
+    }
+    .about__fullName {
+        padding-top: 0.5vh;
+        font-size: 4vh;
     }
     .portfolio {
         width: 100vw;
