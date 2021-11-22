@@ -353,7 +353,7 @@ ul li a {
 }
 .series__item {
     width: auto;
-    height: 100vh;
+    height: auto;
     /* margin: 4px; */
     min-height: 460px;
     min-width: 460px;
