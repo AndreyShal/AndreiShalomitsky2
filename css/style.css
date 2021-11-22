@@ -316,11 +316,11 @@ ul li a {
     display: flex;
     justify-content: space-between;
     width: 80vw;
-    height: 50vh;
+    height: 80vh;
 }
 .infoMeFoto__block {
-    margin-top: 10vh;
-    width: 25vw;
+    /* margin-top: 10vh; */
+    width: 35vw;
     height: auto;
 }
 .infoMeFoto__block img {
@@ -330,7 +330,7 @@ ul li a {
     -o-object-fit: contain;
 }
 .infoMe__blok {
-    width: 25vw;
+    width: 35vw;
     height: auto;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
