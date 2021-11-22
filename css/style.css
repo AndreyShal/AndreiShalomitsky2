@@ -264,8 +264,6 @@ ul li a {
     word-spacing: 1vw;
     color: black;
     background-color: grey;
-    opacity: 0.7;
-    filter: alpha(Opacity=70);
     padding: 4vh 0 4vh;
     margin: 6vh 0 8vh;
     box-shadow: 0px 0px 2vw 5vh rgba(54, 54, 54, 0.8);
