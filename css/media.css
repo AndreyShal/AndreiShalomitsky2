@@ -19,7 +19,8 @@
         height: 8vh;
         border: none;
     }
-    .header__socialNetworks {
+    ul li .header__socialNetworks {
+        display: block;
         margin-top: 2vh;
         margin-right: 16vw;
         width: 17vw;

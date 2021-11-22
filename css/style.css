@@ -115,26 +115,11 @@ body {
     width: 100vw;
     height: 10vh;
 }
-.header__logotip {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 5vw;
-    margin: 0 auto;
-}
-.header__logotip img {
-    display: flex;
-    align-items: center;
-    font-size: auto;
-    width: 90px;
-    height: auto;
-    filter: invert(1);
-}
 
 .header__menu {
     display: flex;
     justify-content: space-around;
-    width: 70vw;
+    width: 90vw;
     height: 13vh;
 }
 
@@ -152,13 +137,19 @@ ul li a {
     font-size: 100%;
 }
 .header__socialNetworks {
-    width: 11vw;
+    display: flex;
+    align-items: center;
+
+    width: 7vw;
     height: 100%;
 }
 .header__socialNetworks img {
-    font-size: auto;
+    /* font-size: auto;
     height: 100%;
-    width: auto;
+    width: auto; */
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .about {
@@ -182,21 +173,21 @@ ul li a {
 }
 .about__fullName {
     text-align: center;
-    font-family: "20094";
+    font-family: "Lobster-Regular";
     font-size: 5vh;
     line-height: 8vh;
     font-weight: 900;
-    word-spacing: 1vh;
+    word-spacing: 1.5vh;
     color: #fff;
     padding: 4vh 0 4vh;
 }
 .about__profession {
     text-align: center;
-    font-family: "20094";
+    font-family: "Lobster-Regular";
     font-size: 4vh;
     line-height: 3vh;
     font-weight: 300;
-    word-spacing: 1vh;
+    word-spacing: 1.5vh;
     color: #fff;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -209,8 +200,9 @@ ul li a {
     flex-wrap: wrap;
 }
 .portfolio__item {
+    min-height: 350px;
     width: 24.5%;
-    height: 30vh;
+    height: 35vh;
     margin: 0.1%;
 }
 .portfolio__item img {
@@ -341,6 +333,12 @@ ul li a {
 @font-face {
     font-family: "20094";
     src: url("../fonts/20094.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lobster-Regular";
+    src: url("../fonts/Lobster-Regular.ttf");
     font-style: normal;
     font-weight: normal;
 }
