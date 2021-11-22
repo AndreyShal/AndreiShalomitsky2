@@ -135,6 +135,24 @@
         width: 100%;
         height: auto;
     }
+    .myContacts {
+        text-align: center;
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        padding: 0 10% 0;
+    }
+    .myContacts h3 {
+        font-size: 20px;
+    }
+    .myContacts span {
+        font-size: 20px;
+        /* white-space: pre-wrap; */
+    }
+    .myContacts span a {
+        white-space: normal;
+        /* font-size: 20px; */
+    }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .smoll {

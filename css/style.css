@@ -312,7 +312,7 @@ ul li a {
     display: flex;
     justify-content: space-between;
     width: 80vw;
-    height: 80vh;
+    height: auto;
 }
 .infoMeFoto__block {
     /* margin-top: 10vh; */
@@ -326,19 +326,19 @@ ul li a {
     -o-object-fit: contain;
 }
 .infoMe__blok {
-    width: 45vw;
+    width: 40vw;
     height: auto;
 }
 .myContacts {
     text-align: center;
     margin-top: 50px;
+    width: 100%;
 }
 .myContacts h3 {
     font-size: 20px;
 }
 .myContacts span {
     font-size: 20px;
-    width: 100%;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
