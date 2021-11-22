@@ -201,8 +201,11 @@ ul li a {
     flex-wrap: wrap;
 }
 .portfolio__item {
-    min-height: 350px;
-    width: 24.5%;
+    min-height: 460px;
+    max-height: 460px;
+    min-width: 360;
+    max-width: 360;
+    width: 33.1%;
     height: 35vh;
     margin: 0.1%;
 }
