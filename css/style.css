@@ -356,22 +356,8 @@ ul li a {
 }
 
 @media all and (max-width: 767px) {
-    .portfolio {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
     .portfolio__item {
-        min-height: 460px;
-        max-height: 460px;
-        min-width: 360;
-        max-width: 360;
         width: 99.6%;
-        height: 35vh;
-        margin: 0.1%;
     }
 }
 
@@ -379,7 +365,6 @@ ul li a {
     .portfolio__item {
         width: 49.5%;
         height: 26vh;
-        margin: 0.1%;
     }
 }
 
@@ -387,8 +372,8 @@ ul li a {
     .portfolio__item {
         min-height: 560px;
         max-height: 560px;
-        min-width: 360;
-        max-width: 360;
+        min-width: 460;
+        max-width: 460;
         width: 99.6%;
     }
 }
@@ -540,24 +525,14 @@ ul li a {
     .infoMe__container {
         display: block;
         width: 100%;
-        height: auto;
     }
 
     .infoMeFoto__block {
         width: 100%;
-        height: auto;
-    }
-
-    .infoMeFoto__block img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        -o-object-fit: contain;
     }
 
     .infoMe__blok {
         width: 100%;
-        height: auto;
     }
 }
 
@@ -577,19 +552,8 @@ ul li a {
 
 @media all and (max-width: 767px) {
     .myContacts {
-        text-align: center;
-        margin-top: 50px;
-        width: 100%;
         height: auto;
         padding: 0 10% 0;
-    }
-
-    .myContacts h3 {
-        font-size: 20px;
-    }
-
-    .myContacts span {
-        font-size: 20px;
     }
 
     .myContacts span a {
