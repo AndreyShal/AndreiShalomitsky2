@@ -95,16 +95,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .wrapper {
     flex-grow: 1;
     position: relative;
 }
+
 .lineBlackHeader {
     position: fixed;
     width: 100vw;
     height: 1px;
     box-shadow: 0px 0px 100px 100px rgba(0, 4, 5, 0.9);
 }
+
 .header {
     border: none;
     position: fixed;
@@ -114,38 +117,46 @@ body {
     width: 100vw;
     height: 10vh;
 }
+
 .header__menu {
     display: flex;
     justify-content: space-around;
     width: 90vw;
     height: 13vh;
 }
+
 .header__menu label.toggleMenu img {
     display: none;
 }
+
 .header__menu [type="checkbox"] {
     display: none;
 }
+
 .header__menu label.toggleMenu {
     display: block;
     margin: 15px 40px;
     cursor: pointer;
     position: relative;
 }
+
 ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
+
 ul li a {
     color: #fff;
     font-size: 100%;
 }
+
 ul li a:hover {
     color: #800000;
     text-decoration: underline;
 }
+
 ul li a {
     color: #fff;
     font-size: 100%;
@@ -154,33 +165,39 @@ ul li a {
 .header__socialNetworks {
     display: flex;
     align-items: center;
-
     width: 5vw;
     height: 100%;
 }
+
 .header__socialNetworks img {
     max-width: 90%;
     height: auto;
     width: auto\9;
 }
+
 .header__socialNetworks img:hover {
     max-width: 100%;
 }
+
 @media all and (max-width: 767px) {
     .header__menu {
         justify-content: start;
         overflow: hidden;
     }
+
     .header__menu ul {
         display: none;
     }
+
     .header__menu label.toggleMenu {
         display: block;
     }
+
     .header__menu label.toggleMenu img {
         display: block;
         filter: invert(0.5);
     }
+
     input.toggleMenu:checked ~ ul {
         border: none;
         position: absolute;
@@ -199,6 +216,7 @@ ul li a {
         box-shadow: 0px 0 8vw 7vh rgba(0, 4, 5);
         letter-spacing: 5px;
     }
+
     ul li .header__socialNetworks {
         display: block;
         margin-top: 2vh;
@@ -206,10 +224,12 @@ ul li a {
         width: 17vw;
         height: 70%;
     }
+
     .header__socialNetworks img {
         filter: invert(0.5);
     }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .header {
         height: 9vh;
@@ -225,16 +245,19 @@ ul li a {
     padding-top: 58vh;
     background-size: cover;
 }
+
 .about__pattern {
     margin: 0 auto;
     width: 6vw;
     height: 6vh;
 }
+
 .about__pattern img {
     font-size: auto;
     width: 100%;
     height: auto;
 }
+
 .about__fullName {
     text-align: center;
     font-family: "Lobster-Regular";
@@ -245,6 +268,7 @@ ul li a {
     color: #fff;
     padding: 4vh 0 4vh;
 }
+
 .about__profession {
     text-align: center;
     font-family: "Lobster-Regular";
@@ -254,6 +278,7 @@ ul li a {
     word-spacing: 1.5vh;
     color: #fff;
 }
+
 @media all and (max-width: 767px) {
     .smoll {
         background: url(../img/portfolio/motherWithDaughter1/4.jpg) no-repeat;
@@ -264,9 +289,11 @@ ul li a {
         padding-top: 61vh;
         background-size: cover;
     }
+
     .about {
         padding-top: 58vh;
     }
+
     .about__pattern {
         margin-top: 1vh;
         margin: 0 auto;
@@ -274,6 +301,7 @@ ul li a {
         height: 10vh;
         padding-top: 3vh;
     }
+
     .about__fullName {
         margin: 1px 0 0vh;
         color: white;
@@ -281,6 +309,7 @@ ul li a {
         font-size: 4vh;
     }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .smoll {
         background: url(../img/portfolio/motherWithDaughter1/4.jpg) no-repeat;
@@ -301,6 +330,7 @@ ul li a {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .portfolio__item {
     min-height: 460px;
     max-height: 460px;
@@ -311,15 +341,18 @@ ul li a {
     margin: 0.1%;
     transition: 0.5s;
 }
+
 .portfolio__item:hover {
     transform: scale(1.2);
 }
+
 .portfolio__item img {
     object-fit: cover;
     -o-object-fit: cover;
     width: 100%;
     height: 100%;
 }
+
 @media all and (max-width: 767px) {
     .portfolio {
         width: 100vw;
@@ -328,6 +361,7 @@ ul li a {
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
     .portfolio__item {
         min-height: 460px;
         max-height: 460px;
@@ -338,6 +372,7 @@ ul li a {
         margin: 0.1%;
     }
 }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .portfolio__item {
         width: 49.5%;
@@ -345,6 +380,7 @@ ul li a {
         margin: 0.1%;
     }
 }
+
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
     .portfolio__item {
         min-height: 560px;
@@ -354,6 +390,7 @@ ul li a {
         width: 99.6%;
     }
 }
+
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
     .portfolio__item {
         min-height: 460px;
@@ -363,39 +400,47 @@ ul li a {
         width: 49.3%;
     }
 }
+
 .footer {
     width: 100vw;
     bottom: 0;
     margin: 5vh 0 3vh;
     text-align: center;
 }
+
 .footer span {
     font-weight: 1000;
     color: #c0c0c0;
     margin-bottom: 10vh;
 }
+
 .buttonTop {
     position: absolute;
     right: 3vw;
     bottom: 2vw;
 }
+
 .buttonTop img {
     height: 90%;
     width: 90%;
     filter: invert(0.4);
 }
+
 .buttonTop img:hover {
     height: 100%;
     width: 100%;
 }
+
 .aboutMenu {
     width: 100vw;
     padding: 0 10vw 0;
 }
+
 .title__aboutMenu {
     margin-top: 15vh;
     text-align: center;
 }
+
 .title__aboutMenu h1 {
     line-height: 26px;
     text-align: center;
@@ -405,6 +450,7 @@ ul li a {
     color: gray;
     padding: 4vh 0 4vh;
 }
+
 .aftorWords {
     font-family: "20094";
     line-height: 10vh;
@@ -418,28 +464,32 @@ ul li a {
     margin: 6vh 0 8vh;
     box-shadow: 0px 0px 2vw 5vh rgba(54, 54, 54, 0.8);
 }
+
 .package__text {
     display: block;
     margin-bottom: 4vh;
 }
+
 .package__text h3 {
     font-size: 30px;
     font-weight: 900;
 }
+
 .package__item {
     margin: 1vh;
     list-style-type: disc;
 }
+
 .package__item span {
     word-spacing: 5px;
     font-size: 20px;
 }
-.additional__services {
-}
+
 .services__title {
     margin-top: 7vh;
     text-align: center;
 }
+
 .services__title h2 {
     line-height: 24px;
     text-align: center;
@@ -449,66 +499,80 @@ ul li a {
     color: black;
     padding: 4vh 0 4vh;
 }
+
 .services__text span {
     word-spacing: 5px;
     font-size: 20px;
 }
+
 .aboutMe span {
     word-spacing: 5px;
     font-size: 20px;
 }
+
 .infoMe__container {
     display: flex;
     justify-content: space-between;
     width: 80vw;
     height: auto;
 }
+
 .infoMeFoto__block {
     width: 35vw;
     height: auto;
 }
+
 .infoMeFoto__block img {
     width: 100%;
     height: 100%;
     object-fit: contain;
     -o-object-fit: contain;
 }
+
 .infoMe__blok {
     width: 40vw;
     height: auto;
 }
+
 @media all and (max-width: 767px) {
     .infoMe__container {
         display: block;
         width: 100%;
         height: auto;
     }
+
     .infoMeFoto__block {
         width: 100%;
         height: auto;
     }
+
     .infoMeFoto__block img {
         width: 100%;
         height: 100%;
         object-fit: contain;
         -o-object-fit: contain;
     }
+
     .infoMe__blok {
         width: 100%;
         height: auto;
     }
 }
+
 .myContacts {
     text-align: center;
     margin-top: 50px;
     width: 100%;
 }
+
 .myContacts h3 {
     font-size: 20px;
 }
+
 .myContacts span {
     font-size: 20px;
 }
+
 @media all and (max-width: 767px) {
     .myContacts {
         text-align: center;
@@ -517,16 +581,20 @@ ul li a {
         height: auto;
         padding: 0 10% 0;
     }
+
     .myContacts h3 {
         font-size: 20px;
     }
+
     .myContacts span {
         font-size: 20px;
     }
+
     .myContacts span a {
         white-space: normal;
     }
 }
+
 .about__series {
     display: flex;
     flex-direction: column;
@@ -534,6 +602,7 @@ ul li a {
     width: 100%;
     padding: 0 7% 0;
 }
+
 .series__item {
     height: 100vh;
     width: auto;
@@ -541,12 +610,14 @@ ul li a {
     min-width: 460px;
     margin: 0.1%;
 }
+
 .series__item img {
     object-fit: contain;
     -o-object-fit: contain;
     width: 100%;
     height: 100%;
 }
+
 .series__text {
     width: 80vw;
     margin: 0 auto;
@@ -555,6 +626,7 @@ ul li a {
     padding: 0 0 10px;
     height: auto;
 }
+
 .series__text span {
     font-size: 20px;
 }
@@ -569,6 +641,7 @@ ul li a {
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: "Lobster-Regular";
     src: url("../fonts/Lobster-Regular.ttf");
