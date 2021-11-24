@@ -91,7 +91,6 @@ h6 {
 
 /*----------------------------------------------------------------------------------------------------*/
 body {
-    /* font-family: Lato; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -113,7 +112,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    /* min-height: 300p; */
     height: 10vh;
 }
 
@@ -156,12 +154,9 @@ ul li a {
     width: 6vw;
 }
 .header__socialNetworks img {
-    /* font-size: auto;
-    height: 100%;
-    width: auto; */
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .about {
@@ -268,7 +263,6 @@ ul li a {
     line-height: 26px;
     text-align: center;
     font-size: 30px;
-    /* line-height: 8vh; */
     font-weight: 900;
     word-spacing: 5px;
     color: gray;
@@ -279,7 +273,6 @@ ul li a {
     line-height: 10vh;
     text-align: center;
     font-size: 7vh;
-    /* line-height: 8vh; */
     font-weight: 900;
     word-spacing: 1vw;
     color: black;
@@ -314,7 +307,6 @@ ul li a {
     line-height: 24px;
     text-align: center;
     font-size: 30px;
-    /* line-height: 8vh; */
     font-weight: 900;
     word-spacing: 5px;
     color: black;
@@ -335,7 +327,6 @@ ul li a {
     height: auto;
 }
 .infoMeFoto__block {
-    /* margin-top: 10vh; */
     width: 35vw;
     height: auto;
 }
@@ -366,21 +357,12 @@ ul li a {
     align-items: center;
     width: 100%;
     padding: 0 7% 0;
-    /* height: auto; */
-    /* display: block; */
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
 }
 .series__item {
     height: 100vh;
     width: auto;
-    /* margin: 4px; */
     min-height: 460px;
     min-width: 460px;
-    /* max-height: 460px; */
-    /* max-width: 360; */
-    /* width: 99.6%; */
-    /* height: 35vh; */
     margin: 0.1%;
 }
 .series__item img {
@@ -395,7 +377,6 @@ ul li a {
     text-align: center;
 
     padding: 0 0 10px;
-    /* margin: 0 5px 30px; */
     height: auto;
 }
 .series__text span {
