@@ -150,13 +150,13 @@ ul li a {
     width: 5vw;
     height: 100%;
 }
-.header__socialNetworks:hover {
-    width: 6vw;
-}
 .header__socialNetworks img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     width: auto\9;
+}
+.header__socialNetworks img:hover {
+    max-width: 100%;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .about {
@@ -242,14 +242,14 @@ ul li a {
     right: 3vw;
     bottom: 2vw;
 }
-.buttonTop:hover {
-    width: 5vw;
-    height: 7vh;
-}
 .buttonTop img {
+    height: 90%;
+    width: 90%;
+    filter: invert(0.4);
+}
+.buttonTop img:hover {
     height: 100%;
     width: 100%;
-    filter: invert(0.4);
 }
 .aboutMenu {
     width: 100vw;
